@@ -20,8 +20,8 @@ class TaskList:
         return len(self.tasks)
 
     # DO NOT TOUCH UNTIL LESSON TWO
-    # def markTaskCompleted(self, id):
-    #     pass
+    def markTaskCompleted(self, id):
+        self.tasks[id].markComplete()
 
     # DO NOT TOUCH UNTIL LESSON THREE
     # def displayFiltered(self, isComplete) -> str:
